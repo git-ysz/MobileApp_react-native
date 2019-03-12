@@ -58,10 +58,14 @@ export default class CameraPage extends Component {
     console.log(data)
   }
   // 请求数据
-  _sendPicture = ()=> {
-
+  _sendPicture = (data)=> {
+    /*
+     * 调用请求接口在这里...
+     * 因百度api无法实现并发需求，所以删掉，另寻其他方法
+     * （百度api参照官方文档：https://ai.baidu.com/docs#/OCR-API/5116ac95）
+     */  
     setTimeout(() => {
-      this._resetCamera()
+      this._resetCamera() //模拟扫描延迟恢复摄像头浏览
     }, 1500)
   }
   // 数据返回后恢复摄像头
