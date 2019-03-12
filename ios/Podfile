@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+def commonPods #通用pods集
+    pod 'AFNetworking', '~> 2.0'
+    pod 'Masonry'
+end
+target :MobileApp do
+    commonPods
+end
