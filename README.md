@@ -5,7 +5,6 @@ react-native初探
 
 项目启动
 ```
-react-native run-android
-or
-react-native run-ios
+1、yarn add or npm install
+2、react-native run-android or react-native run-ios
 ```
